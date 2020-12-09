@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menuHomepage">דף הבית</string>
+    <string name="menuSearch">תוצאות החיפוש</string>
+    <string name="menuHistorySearch">היסטוריית החיפוש</string>
+    <string name="menuDevelopers">צוות הפיתוח</string>
+    <string name="SearchButton">חפש</string>
+    <string name="appDescription">המידע המבוקש שלך מאתר Stack Overflow</string>
+    <string name="askForSearchWord">הכנס/י את מילת החיפוש שלך:</string>
+    <string name="searchWordHint">הקלד/י את המילה לחיפוש...</string>
+    <string name="searchHistoryTitle">היסטוריית החיפושים</string>
+    <string name="searchResultsTitle">תוצאות החיפוש</string>
+    <string name="deleteItemTV">הכנס/י מספר חיפוש למחיקה</string>
+    <string name="idToDeleteET">הקלד/י מספר חיפוש...</string>
+    <string name="deleteSearch">מחק</string>
+    <string name="developerTitle">צוות הפיתוח</string>
+    <string name="developersKnowladge">"המפתחים הם: רועי פרדי, אור כהן וספיר חן. \n\nאנחנו בוגרי תואר ראשון לניהול מערכות מידע B.Sc מהמכללה האקדמית ת\"א יפו, ובעלי ידע בשפות תכנות שונות: C++, Java, SQL, PHP, HTML, JavaScript וכו'.\nאפליקציה זו פותחה כתוצר פרויקט גמר בקורס פיתוח אפליקציות אנדרויד. "</string>
+    <string name="videoExplanation">הסרטון הבא מסביר על Stack Overflow</string>
+    <string name="Search_ID">מספר החיפוש:</string>
+    <string name="Search_word">מילת החיפוש:</string>
+</resources>

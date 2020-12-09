@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".HomePageActivity">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/appName"
+        android:textColor="#F44336"
+        android:textSize="45dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        app:srcCompat="@drawable/programmingpic" />
+
+    <TextView
+        android:id="@+id/appDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/appDescription"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/askForSearchWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/askForSearchWord"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/searchWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="@string/searchWordHint"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D8FF5722"
+        android:onClick="search"
+        android:shadowColor="#009688"
+        android:text="@string/SearchButton" />
+
+</LinearLayout>

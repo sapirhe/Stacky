@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuHomepage"
+        android:icon="@drawable/stackoverflowicon"
+        app:showAsAction="always"
+        android:title="@string/menuHomepage"></item>
+
+    <item
+        android:id="@+id/menuSearch"
+        android:title="@string/menuSearch"></item>
+
+    <item
+        android:id="@+id/menuHistorySearch"
+        android:title="@string/menuHistorySearch"></item>
+    <item
+        android:id="@+id/menuDevelopers"
+        android:title="@string/menuDevelopers"></item>
+</menu>

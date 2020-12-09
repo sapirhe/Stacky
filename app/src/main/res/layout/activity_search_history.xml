@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchHistoryActivity">
+
+    <TextView
+        android:id="@+id/searchHistoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/searchHistoryTitle"
+        android:textColor="#F44336"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/deleteItemTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteItemTV"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:fontFamily="casual"/>
+
+    <EditText
+        android:id="@+id/idToDeleteET"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="@string/idToDeleteET"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:onClick="deleteSearchButton"
+        android:text="@string/deleteSearch" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearchHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Stacky</string>
+    <string name="menuHomepage">Home Page</string>
+    <string name="menuSearch">Search Results</string>
+    <string name="menuHistorySearch">Search History</string>
+    <string name="menuDevelopers">Development Team</string>
+    <string name="SearchButton">Search</string>
+    <string name="appName">Stacky</string>
+    <string name="appDescription">Your StackOverflow information</string>
+    <string name="askForSearchWord">Enter your search word:</string>
+    <string name="searchWordHint">Type your word...</string>
+    <string name="searchHistoryTitle">Search History</string>
+    <string name="searchResultsTitle">Search Results</string>
+    <string name="deleteItemTV">Insert search ID you whould like to delete:</string>
+    <string name="idToDeleteET">Type ID...</string>
+    <string name="deleteSearch">DELETE</string>
+    <string name="developerTitle">Development Team</string>
+    <string name="developersKnowladge">The developers are: Roey Fredi, Or Cohen and Sapir Hen.\n\n We are graduates of information systems management B.Sc degree, with knowladge of different progremming languages: C++, Java, SQL, PHP, HTML, JavaScript act.\n This app was developed for a final project in Android development course.</string>
+    <string name="videoExplanation">The next vide will explain about Stack Overflow:</string>
+    <string name="Search_ID">Search ID:</string>
+    <string name="Search_word">Search word:</string>
+</resources>
